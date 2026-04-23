@@ -88,8 +88,11 @@ py -m sphinx.cmd.quickstart
 import sys
 import os
 sys.path.insert(0, os.path.abspath('..'))
-Скриншот содержимого conf.py: ![alt text](image-7.png)
 ```
+Скриншот содержимого conf.py: 
+
+![alt text](image-7.png)
+
 ### 3.5 Автоматическое создание .rst-файлов
 Из docstrings сгенерированы файлы описания модулей с помощью команды:
 
@@ -123,7 +126,9 @@ HTML-документация собрана командой:
 ```bash
 py -m sphinx.cmd.build . ./_build
 ```
-Скриншот сборки: ![alt text](image-8.png)
+Скриншот сборки:
+
+ ![alt text](image-8.png)
 
 ### 3.8 Результат
 Готовая документация находится в docs/_build/index.html. Она включает:
@@ -134,11 +139,16 @@ py -m sphinx.cmd.build . ./_build
 
 описание всех функций с параметрами и примерами
 
-Скриншот главной страницы документации: ![alt text](image-3.png)
+Скриншот главной страницы документации: 
 
-Скриншот страницы с описанием функции: ![alt text](image-4.png)
+![alt text](image-3.png)
+
+Скриншот страницы с описанием функции: 
+
+![alt text](image-4.png)
 
 репозиторий: https://github.com/EkaterinaSabunina/rabota8
+
 ![alt text](image-1.png)
 
 ## 4. Выводы
